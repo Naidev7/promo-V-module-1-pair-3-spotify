@@ -1,0 +1,46 @@
+.header{
+   display: flex;
+   justify-content: space-between;
+   background-color: black;
+   height: 8vh;
+   position: sticky;
+   >figure{
+     padding: 1.3rem;
+   }
+}
+
+.hero{
+   background-color: #639de5;
+   height: 40vh;
+   text-align: center;
+   padding: 1rem;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   text-align;
+
+   >h1 {
+      color: white;
+      padding: 1rem;
+      text-align: start;
+
+   }
+   >p{
+      color: white;
+      padding: 1.1rem;
+      text-align: start;
+   }
+  >.button{
+      display: inline-block;
+      background-color:  #2cb46a;
+      padding: 0.8rem;
+      border-radius: 6px;
+      cursor: pointer;
+
+      >a{
+         color: white;
+         text-decoration: none;
+         text-align: start;
+      }
+   }
+
+   
+}
