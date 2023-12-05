@@ -1,5 +1,14 @@
-* {
+*{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  
 }
+
+:root{
+  font-size: 62.5% /*62.5px es igual a 10px*/;
+  font-family: $font_family;
+  --hero-color: white;
+}
+
+
